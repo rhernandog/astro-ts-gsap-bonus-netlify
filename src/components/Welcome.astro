@@ -192,7 +192,7 @@ import background from "../assets/background.svg";
 
   gsap.registerPlugin(MorphSVGPlugin);
 
-  gsap.to("#hippo", {
+  const t: GSAPAnimation = gsap.to("#hippo", {
     duration: 2,
     ease: "power1.inOut",
     morphSVG: "#circle",
